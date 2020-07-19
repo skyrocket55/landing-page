@@ -7,12 +7,12 @@
  * To learn more, visit: https://css-tricks.com/reboot-resets-reasoning/
  *
 */
-
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Carrois+Gothic+SC&family=Hind&family=Roboto&display=swap');
 
 /* ---- Base Rules ---- */
 body {
     background: rgb(136,203,171);
-    background: linear-gradient(0deg, rgba(136,203,171,1) 0%, rgba(0,13,60,1) 100%);
+    background: linear-gradient(0deg, rgba(136,203,171,1) 0%, rgba(32, 204, 207, 1) 100%);
     margin: 0;
     font-family: 'Merriweather', serif;
     color: #fff;
@@ -24,6 +24,7 @@ h1 {
     font-family: 'Fira Sans', sans-serif;
     font-size: 3em;
     margin: 2em 1rem;
+    font-family: "Carrois Gothic SC", sans-serif;
 }
 
 @media only screen and (min-width: 35em){
@@ -38,16 +39,19 @@ h2 {
     font-family: 'Oxygen', Sans-Serif;
     font-size: 3em;
     color: #fff;
+    font-family: "Hind", sans-serif;
 }
 
 p {
     line-height: 1.6em;
     color: #eee;
+    font-family: "Roboto", sans-serif;
 }
 
 a {
     color: inherit;
     text-decoration: none;
+    font-family: "Roboto", sans-serif;
 }
 
 /* ---- Layout Rules ---- */
@@ -112,7 +116,7 @@ section {
 }
 
 .link__active {
-    background: rgb(136,203,171);
+    background: rgba(142, 244, 246, 1);
     color: #fff;
     transition: ease 0.3s all;
 }
