@@ -80,11 +80,11 @@ function activeSection() {
 window.addEventListener('scroll', activeSection);
 
 // Scroll to anchor ID using scrollTO event
-document.querySelectorAll('a').forEach(a => {
+document.querySelectorAll('li').forEach(a => {
   a.addEventListener('click', function (e) {
     e.preventDefault();
-
-    document.getElementById(a.getAttribute('href')).scrollIntoView({
+    
+    document.getElementById(a.firstChild.getAttribute('href')).scrollIntoView({
       behavior: 'smooth'
     });
   });
